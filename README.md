@@ -1,21 +1,40 @@
-<<<<<<< HEAD
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# todo-app
 A beautiful, responsive todo application built with React and Vite. Manage your daily tasks efficiently with an intuitive interface and smooth user experience.
->>>>>>> b27880a0f7031176755f512514e029c33e4535d7
+
+## 📂 Project Overview
+
+- Built with **React** (functional components + hooks) and bundled with **Vite** for fast development.  
+- Responsive design: works well on mobile, tablet and desktop.  
+- Simple UI for adding, editing, deleting and marking tasks as done.  
+- Clean code structure: components, styles, and assets organised for clarity.
+
+## 🛠️ Technologies Used
+
+| Technology        | Purpose                                           |
+|-------------------|---------------------------------------------------|
+| React             | UI library with declarative components           |
+| Vite              | Development build tool & fast bundler             |
+| CSS / Flex / Grid | Styling and layout responsiveness                 |
+| JavaScript (ES6+) | Modern syntax, hooks, functional components       |
+| Git & GitHub      | Version control & project hosting                 |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js installed (version 14+ recommended)  
+- npm or yarn (we’ll use npm in examples)
+
+### Installation & Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Paripoorna7/todo-app.git
+cd todo-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
